@@ -1,6 +1,8 @@
-Essentially Its just like DnD but cuter.
+Essentially Its just like DnD but its not.
 
 Very raw work in progress
 
 
 Main plan and startup file by Cupsarestupid
+
+Started programming Cpp in 7.2.2020
