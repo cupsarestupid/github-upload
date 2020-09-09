@@ -17,34 +17,35 @@ struct Attributes{
 };
 //Sections of the program
 //char caracterMenu();
-char characterClassSelection(string);
-/*string characterName();
+char characterClassSelection(std::string);
+/*std::string characterName();
 int characterLevel();*/
 
 int main(){
   //Attributes character;
-  sting name;
-  string gender;
+  std::string name, gender;
+  char classChoice, menuChoice;
+  //std::vector <std::string> optionalClasses;
 
   //char class;
   //short level;
 
   std::cout << "Enter chosen name:\n";
-  getline(std::cin, name)
+  getline(std::cin, name);
 
   std::cout << "Enter gender:\n";
   getline(std::cin, gender);
 
-
+  classChoice = characterClassSelection(name);
 
   return 0;
 }
 //Menu
-char characterClassSelection(string name, string gender){
+char characterClassSelection(std::string name){
   char select;
 
-  std::cout << "Select your class:\n";
-  std::cout << "A) Space Barbarian\n";
+  std::cout << "Select your class " << name << "\n";
+  std::cout << "\nA) Space Barbarian\n";
   std::cout << "B) Space Bard\n";
   std::cout << "C) Space Cleric\n";
   std::cout << "D) Space Druid\n";
@@ -52,35 +53,42 @@ char characterClassSelection(string name, string gender){
   std::cout << "F) Space Monk\n";
   std::cout << "G) Space Paladin\n";
   std::cout << "H) Space Ranger\n";
+  std::cout << "\nJ) Back\n";
+  std::cin >> select;
   switch(select){
     case 'A':
     case 'a':
-
+      return select;
+      break;
     case 'B':
     case 'b':
-
+      return select;
+      break;
     case 'C':
     case 'c':
-
+      return select;
+      break;
     case 'D':
     case 'd':
-
+      return select;
+      break;
     case 'E':
     case 'e':
-
+      return select;
+      break;
     case 'F':
     case 'f':
-
+      return select;
+      break;
     case 'G':
     case 'g':
-
+      return select;
+      break;
     case 'H':
     case 'h':
-
+      return select;
+      break;
     default :
       std::cout << "Invalid choice, make another selection";
   }
-
-
-  getline(std::cin, class);
 }
