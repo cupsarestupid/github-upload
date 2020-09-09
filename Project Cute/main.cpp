@@ -15,6 +15,38 @@ struct Attributes{
   int wisdom;
   int charisma;
 };
+//literal classes
+class SpaceBarbarian{
+  public:
+};
+
+class SpaceBard{
+  public:
+};
+
+class SpaceCleric{
+  public:
+};
+
+class SpaceDruid{
+  public:
+};
+
+class SpaceFighter{
+  public:
+};
+
+class SpaceMonk{
+  public:
+};
+
+class SpacePaladin{
+  public:
+};
+
+class SpaceRanger{
+  public:
+};
 
 //Sections of the program
 //char caracterMenu();
