@@ -1,8 +1,11 @@
 Essentially Its just like DnD but its not.
 
-Very raw work in progress
+Very raw work in progress, I'll take any help I can get.  I was trying to maybe come up with a space ideas.  Got a good deal of story but my programming skills are not that great right now.  I'll post when I started programming Cpp in the bottom.
 
+Oh, I might actually post some story ideas and maybe some art from my girlfriend and friends.  Thanks
 
 Main plan and startup file by Cupsarestupid
 
 Started programming Cpp in 7.2.2020
+
+See 'License' for usage
