@@ -1,8 +1,7 @@
-/*The idea is like a DnD type thing but with a different concept*/
+/*The idea is like a DnD type thing but with a different concept, please read "Plan.txt"*/
 #include <iostream>
 #include <string>
 #include "Attributes.h"
-
 
 class SpaceBarbarian{
   public:
@@ -47,15 +46,12 @@ class SpaceRanger{
 
 //Sections of the program
 //char caracterMenu();
-char characterClassSelection(std::string);
-/*std::string characterName();
-int characterLevel();*/
+char characterClassSelection(std::string, std::string);
+/*int characterLevel();*/
 
 int main(){
-  //Attributes character;
   std::string name, gender;
   char classSelect, menuChoice;
-  //short level;
 
   std::cout << "Enter chosen name:\n";
   getline(std::cin, name);
@@ -63,19 +59,24 @@ int main(){
   std::cout << "Enter gender:\n";
   getline(std::cin, gender);
 
+
   while(true){
-    classSelect = characterClassSelection(name);
+    classSelect = characterClassSelection(name, gender);
       break;
   }
 
   return 0;
 }
 
-char characterClassSelection(std::string name){
+char characterClassSelection(std::string name, std::string gender){
   char select;
 
   while(true){
-    std::cout << "Select your class " << name << "\n";
+    for (int i = 0; i < 10; i++){
+      std::cout << "\n\n\n\n\n\n\n\n\n\n";
+    }
+    std::cout << "Ah yes, I can see that you are " << gender << "\n";
+    std::cout << "Well then " << name << ", your class? \n";
 
     std::cout << "\nA) Space Barbarian\n";
     std::cout << "B) Space Bard\n";
