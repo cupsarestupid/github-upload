@@ -4,6 +4,8 @@ Very raw work in progress, I'll take any help I can get.  I was trying to maybe 
 
 Oh, I might actually post some story ideas and maybe some art from my girlfriend and friends.  Thanks
 
+GF came up with the idea of oregon trail but with space stuff and also dnd!
+
 Main plan and startup file by Cupsarestupid
 
 Started programming Cpp in 7.2.2020
