@@ -2,7 +2,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include "spacetrekercharacter.cpp"
+//#include "spacetrekercharacter.cpp"
 
 //Sections of the program
 //char caracterMenu();
