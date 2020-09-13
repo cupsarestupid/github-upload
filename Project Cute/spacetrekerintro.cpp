@@ -2,48 +2,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include "Attributes.h"
-
-class SpaceBarbarian{
-  public:
-
-};
-
-class SpaceBard{
-  public:
-
-};
-
-class SpaceCleric{
-  public:
-
-};
-
-class SpaceDruid{
-  public:
-
-
-};
-
-class SpaceFighter{
-  public:
-
-};
-
-class SpaceMonk{
-  public:
-
-};
-
-class SpacePaladin{
-  public:
-
-};
-
-class SpaceRanger{
-  public:
-
-};
+#include "spacetrekercharacter.cpp"
 
 //Sections of the program
 //char caracterMenu();
@@ -54,8 +13,8 @@ int main(){
   std::string name, gender;
   char classSelect, menuChoice;
 
-  std::cout << std::right << std::setw(50) << "Enter chosen name:\n";
-  std::cout << std::right << std::setw(48);
+  std::cout << /*std::right << std::setw(50) <<*/ "Enter chosen name:\n";
+  //std::cout << std::right << std::setw(48);
   getline(std::cin, name);
 
   std::cout << "Enter gender:\n";
