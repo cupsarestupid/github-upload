@@ -8,6 +8,16 @@ GF came up with the idea of oregon trail but with space stuff and also dnd!
 
 Main plan and startup file by Cupsarestupid
 
+Create a random generational maker based on perimeters set out by the user, these
+will have these features:
+
+NPC's will not be const...  They will be randomly generated.
+These NPC's can have families, be based in their own world, have their
+own lives.  We can either set this up to run each instance, or have it persistent
+based on the time entering the game, or set on a time frame dictated by some type
+of agreement if a community arises.  Since we're talking about space and maybe
+the future perhaps gender bias might not dictate offspring?!?
+
 Started programming Cpp in 7.2.2020
 
 See 'License' for usage
